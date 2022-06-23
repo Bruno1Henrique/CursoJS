@@ -34,3 +34,43 @@ window.alert('É um grande prazer te conhecer, '+ nome) //Concatenação
 > n1.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})
 'R$ 1.545,00'
 '1545,50'
+
+Auto atribuicao
+var n = 3
+n = n + 4 / n+= 4 (tem a funcao de suprimir os dois n = n)
+n = n + 5 / n+= 5 
+
+Incremento
+var n = 10
+n++ = 11
+n--=10
+
+Operadores booleanos
+preço = 200
+preco < 200
+false
+
+>
+<
+==
+!= //Diferente de
+=== //Identico
+
+5 === '5'
+false
+
+Operadores lógicos
+! = Nega
+&& = E
+|| = Ou
+
+idade = 22
+
+idade > 18 && idade < 30 = true
+idade > 18 || idade < 30 = true
+
+Operador Ternario
+? :
+
+media = 7
+media=>7?'APROVADO':'REPROVADO'
