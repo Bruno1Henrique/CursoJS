@@ -74,3 +74,18 @@ Operador Ternario
 
 media = 7
 media=>7?'APROVADO':'REPROVADO'
+
+
+//DOM
+<body>
+    <h1>Inciando Estudos com DOM </h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
+    <div>Clique em mim</div>
+    <script>
+        corpo = window.document.body
+        p1= window.document.getElementsByTagName('p')[0] // Replica o resultado do primeiro paragrafo
+        corpo.style.background = 'black' // Muda o fundo da página
+        p1.style.color = 'blue'
+    </script>
+</body>
