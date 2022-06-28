@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual sua nacionalidade?</h1>
+    Digite seu país de nascimento: <input type="text" name="nac" id="nactxt">
+    <button type="submit" onclick="processa()">Ler</button>
+    <div id="res"></div>
+
+    <script>
+        function processa(){
+            var nactxt = window.document.getElementById('nactxt')
+            var res = window.document.getElementById('res')
+            var txtv = String(nactxt.value)
+            if (txtv == 'Brasil'){
+                res.innerHTML = 'Você é brasileiro'
+            }else{
+                res.innerHTML = 'Você é estrangeiro'
+            }
+        }
+    </script>
+
+</body>
+</html>
