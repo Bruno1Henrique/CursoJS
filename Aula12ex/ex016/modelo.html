@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos calcular</h1>
+    </header>
+    <section>
+        <div>
+            Digite o primeiro valor: &nbsp;<input type="number" id="num1" name="num1"> 
+            <br><br>
+            Digite o segundo valor:  <input type="number" id="num2">
+        </div>
+        <div>
+            <p>Qual operação quer fazer? </p>
+            <p>
+                <input type="radio" name="opera" id="soma" checked>
+                <label for="mais">Soma</label>
+                <input type="radio" name="opera" id="sub">
+                <label for="menos">Subtração</label>
+                <input type="radio" name="opera" id="div">
+                <label for="divide">Divisão</label>
+                <input type="radio" name="opera" id="mult">
+                <label for="vezes">Multiplicação</label>
+            </p>
+            <p>
+                <input type="button" value="Resultado" onclick="processa()">
+            </p>
+        </div>
+        <div id="res">
+           Meu resultado
+        </div>
+    </section>
+    <footer>
+        <p>&copy;BHP</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
