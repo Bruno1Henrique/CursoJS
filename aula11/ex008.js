@@ -5,7 +5,7 @@ if(vel > 60){
 }
 console.log(`Dirija sempre usando cinto de segurança`)*/
 
-var pais = 'Angola'
+var pais = 'Brasil'
 console.log(`Vivendo em ${pais}`)
 if(pais == 'Brasil'){
     console.log('Você é Brasileiro')
