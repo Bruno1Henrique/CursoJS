@@ -18,12 +18,12 @@ function calcula(){
         }
         if(i < f){
             //CONTAGEM CRESCENTE
-            for(let c = i; c<= f; c += p){
+            for(let c = i; c<= f; c = c + p){
                 res.innerHTML += `${c} \u{1F449}`
             }
         }else{
             //CONTAGEM REGRESSIVA
-            for(let c =i; c>= f; c-=p){
+            for(let c =i; c>= f; c= c - p){
                 res.innerHTML += ` ${c} \u{1F449}`
             }
         }
