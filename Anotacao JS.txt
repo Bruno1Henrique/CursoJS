@@ -89,3 +89,5 @@ media=>7?'APROVADO':'REPROVADO'
         p1.style.color = 'blue'
     </script>
 </body>
+
+https://gustavoguanabara.github.io/javascript/exercicios/
