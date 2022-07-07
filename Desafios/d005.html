@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-size: 12pt Arial;}
+        button{font-size: 12pt Arial; padding: 30px;}
+        p {font-weight: bold; font-size: 15pt;}
+    </style>
+</head>
+<body>
+    <h1>Conversor de medida</h1>
+    <button onclick="convert()">Clique aqui para iniciar</button>
+    <h2 id="res">Resultados aparecerão aqui</h2>
+    <p id="final"></p>
+    <script>
+        function convert(){
+            let uni = Number(prompt("Digite aqui o valor em metros"))
+            res.innerHTML = (`A distância de ${uni} metros, corresponde a...`)
+            final.innerHTML = (`${uni / 1000} quilometros (KM)<br> 
+            ${uni /100} hectometros (HM)<br>
+            ${uni /10} decametros (DCM)<br>
+            ${uni *10} decimetros (dm)<br>
+            ${uni *1000} milimetros (mm)<br>`)
+        }
+    </script>
+</body>
+</html>

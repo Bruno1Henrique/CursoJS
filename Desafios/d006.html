@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-size: 12pt Arial;}
+        button{font-size: 12pt; padding: 30px;}
+        p{font-weight: bolder;}
+    </style>
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+    <button onclick="converte()">Converter</button>
+    <h2 id="corresponde"></h2>
+    <p id="convertido"></p>
+    <script>
+        function converte(){
+            let conv = Number(prompt("Digite aqui a temperatura"))
+            corresponde.innerHTML = (`A temperatura ${conv}ºC corresponde a`)
+            convertido.innerHTML = (`${conv + 273.15} (Kelvin)<br>
+            ${(conv * 1.8) + 32 }(Fahrenheit)`)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {font-size: 12pt Arial;}
+        button{font-size: 12pt Arial; padding: 30px;}
+    </style>
+</head>
+<body>
+    <h1>Antecessor e Sucessor</h1>
+    <button onclick="conta()">Antecessor ou Sucessor</button>
+    <script>
+        function conta(){
+            let num1 = Number(prompt("Digite um número"))
+            window.alert(`O sucessor de ${num1} é ${num1 + 1} e o antecessor é ${num1 - 1}`)
+        }
+    </script>
+</body>
+</html>

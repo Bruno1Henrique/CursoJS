@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-size: 12pt Arial;}
+        button {font-size: 12pt Arial;padding: 30px;}
+    </style>
+</head>
+<body>
+    <h1>Qual meu troco?</h1>
+    <button onclick="troco()">Calcule o troco</button>
+    <script>
+        function troco(){
+            let desc = prompt("Qual foi o produto que você comprou?")
+            let produto = Number(prompt("Digite o valor do produto"))
+            let pago = Number(prompt("Digite o valor pago pelo cliente"))
+            window.alert(`Você comprou um ${desc} o cliente pagou R$ ${pago} e o produto custa R$ ${produto} o troco é de ${pago - produto}`)
+        }
+    </script>
+</body>
+</html>
